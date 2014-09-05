@@ -26,3 +26,564 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2014-09-04 08:20:20.646
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-09-05 19:14:58.804 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.core.resources 4 567 2014-09-05 19:16:08.366
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2014-09-05 19:16:08.366
+!MESSAGE Could not read metadata for '.org.eclipse.jdt.core.external.folders'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for '.org.eclipse.jdt.core.external.folders' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:851)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:874)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:854)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:703)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1528)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2502)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2251)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:439)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$1.run(BundleContextImpl.java:711)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:702)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:683)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:35)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:461)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2014-09-05 19:16:08.386
+!MESSAGE The project description file (.project) for '.org.eclipse.jdt.core.external.folders' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:16:13.785
+!MESSAGE projectOpenedWithWorkspace: failed to find manifest package for project myFirstAndroidProject
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:16:15.775
+!MESSAGE fileChanged: failed to find manifest package for project myFirstAndroidProject
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-05 19:16:18.545
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-05 19:16:18.545
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:19:02.973
+!MESSAGE Failed to load properties file for project 'simpleLinerLayout'
+!SESSION 2014-09-05 19:20:20.780 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-09-05 19:20:27.362
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-05 19:20:34.468
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-05 19:20:34.468
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:39:44.668
+!MESSAGE Failed to update a TargetChangeListener.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Widget.setData(Widget.java:1187)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.selectTarget(ConfigurationChooser.java:1045)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.updateTargets(ConfigurationChooser.java:956)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.onSdkLoaded(ConfigurationChooser.java:685)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onSdkLoaded(GraphicalEditorPart.java:934)
+	at com.android.ide.eclipse.adt.AdtPlugin$7$1.run(AdtPlugin.java:1477)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:39:44.670
+!MESSAGE Failed to update a TargetChangeListener.
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Widget.setData(Widget.java:1187)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.selectTarget(ConfigurationChooser.java:1045)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.updateTargets(ConfigurationChooser.java:956)
+	at com.android.ide.eclipse.adt.internal.editors.layout.configuration.ConfigurationChooser.onSdkLoaded(ConfigurationChooser.java:685)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onSdkLoaded(GraphicalEditorPart.java:934)
+	at com.android.ide.eclipse.adt.AdtPlugin$7$1.run(AdtPlugin.java:1477)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2014-09-05 19:41:46.264
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.showMenu(PaletteControl.java:1224)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.access$0(PaletteControl.java:1210)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl$PalettePage$1.widgetSelected(PaletteControl.java:176)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:42:22.975
+!MESSAGE activity_main.xml: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at android.graphics.Paint_Delegate.reset(Paint_Delegate.java:1114)
+	at android.graphics.Paint_Delegate.<init>(Paint_Delegate.java:1076)
+	at android.graphics.Paint_Delegate.native_init(Paint_Delegate.java:671)
+	at android.graphics.Paint.native_init(Paint.java)
+	at android.graphics.Paint.<init>(Paint.java:429)
+	at android.graphics.Paint.<init>(Paint.java:419)
+	at android.widget.TextView.<clinit>(TextView.java:589)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:603)
+	at android.view.BridgeInflater.onCreateView(BridgeInflater.java:82)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:678)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:737)
+	at android.view.BridgeInflater.createViewFromTag(BridgeInflater.java:128)
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:802)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:778)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:475)
+	at com.android.layoutlib.bridge.bars.CustomBar.<init>(CustomBar.java:94)
+	at com.android.layoutlib.bridge.bars.StatusBar.<init>(StatusBar.java:33)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.createStatusBar(RenderSessionImpl.java:1583)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:334)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:329)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:332)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:517)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.renderWithBridge(GraphicalEditorPart.java:1584)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.recomputeLayout(GraphicalEditorPart.java:1309)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:725)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.onTargetChange(GraphicalEditorPart.java:1196)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.onDescriptorsChanged(LayoutEditorDelegate.java:916)
+	at com.android.ide.eclipse.adt.internal.editors.layout.LayoutEditorDelegate.delegateInitUiRootNode(LayoutEditorDelegate.java:835)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.updateEditor(GraphicalEditorPart.java:953)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onTargetLoaded(GraphicalEditorPart.java:917)
+	at com.android.ide.eclipse.adt.AdtPlugin$11.run(AdtPlugin.java:1749)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 2 2 2014-09-05 19:42:54.621
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-09-05 19:43:22.137 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-05 19:43:55.734
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-05 19:43:55.735
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:49:03.806
+!MESSAGE Parsing Data for android-L failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:731)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 19:52:39.996
+!MESSAGE Failed to load properties file for project 'mytest'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:00:07.258
+!MESSAGE Parsing Data for android-L failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:731)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:27.762
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at android.graphics.Typeface_Delegate.getSystemFontConfigLocation(Typeface_Delegate.java:201)
+	at android.graphics.Typeface.getSystemFontConfigLocation(Typeface.java:352)
+	at android.graphics.Typeface.init(Typeface.java:280)
+	at android.graphics.Typeface.<clinit>(Typeface.java:334)
+	... 8 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:27.764
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.lang.NullPointerException
+	at java.io.File.<init>(Unknown Source)
+	at android.graphics.Typeface_Delegate.getSystemFontConfigLocation(Typeface_Delegate.java:201)
+	at android.graphics.Typeface.getSystemFontConfigLocation(Typeface.java:352)
+	at android.graphics.Typeface.init(Typeface.java:280)
+	at android.graphics.Typeface.<clinit>(Typeface.java:334)
+	... 8 more
+
+!ENTRY org.eclipse.core.resources 4 4 2014-09-05 20:02:31.244
+!MESSAGE Exception occurred while saving project preferences: /appcompat_v7/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\user\Documents\GitHub\myAndroidCode\appcompat_v7\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.actions.FixProjectAction$1.run(FixProjectAction.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-09-05 20:02:31.245
+!MESSAGE A resource already exists on disk 'C:\Users\user\Documents\GitHub\myAndroidCode\appcompat_v7\.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:31.246
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:31.247
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 4 2014-09-05 20:02:31.247
+!MESSAGE Exception occurred while saving project preferences: /appcompat_v7/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\user\Documents\GitHub\myAndroidCode\appcompat_v7\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.actions.FixProjectAction$1.run(FixProjectAction.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-09-05 20:02:31.247
+!MESSAGE A resource already exists on disk 'C:\Users\user\Documents\GitHub\myAndroidCode\appcompat_v7\.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:31.321
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:31.321
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 4 2014-09-05 20:02:31.322
+!MESSAGE Exception occurred while saving project preferences: /appcompat_v7/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\user\Documents\GitHub\myAndroidCode\appcompat_v7\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.actions.FixProjectAction$1.run(FixProjectAction.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-09-05 20:02:31.322
+!MESSAGE A resource already exists on disk 'C:\Users\user\Documents\GitHub\myAndroidCode\appcompat_v7\.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:31.322
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:31.322
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:33.851
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:33.852
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:33.854
+!MESSAGE Unknown exception in parseSdkContent.
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-05 20:02:33.854
+!MESSAGE parseSdkContent failed
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class android.graphics.Typeface
+	at android.graphics.Typeface_Accessor.resetDefaults(Typeface_Accessor.java:25)
+	at com.android.layoutlib.bridge.Bridge.dispose(Bridge.java:306)
+	at com.android.ide.common.rendering.LayoutLibrary.dispose(LayoutLibrary.java:312)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetData.dispose(AndroidTargetData.java:414)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.dispose(Sdk.java:964)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk.loadSdk(Sdk.java:238)
+	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 2 2 2014-09-05 20:08:27.303
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
