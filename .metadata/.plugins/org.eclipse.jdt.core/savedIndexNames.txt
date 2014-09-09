@@ -1,6 +1,6 @@
-INDEX VERSION 1.126+C:\Users\taianluo\Documents\GitHub\myAndroidCode\myCode\.metadata\.plugins\org.eclipse.jdt.core
-2066391565.index
-3387503726.index
+INDEX VERSION 1.126+C:\Users\taianluo\Documents\GitHub\myAndroidCode\.metadata\.plugins\org.eclipse.jdt.core
+2803581548.index
+1060790639.index
 225490625.index
 3227554463.index
-2803581548.index
+2213390384.index
