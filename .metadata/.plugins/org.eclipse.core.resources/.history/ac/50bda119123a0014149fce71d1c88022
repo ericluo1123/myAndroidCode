@@ -30,26 +30,26 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		sp = getSharedPreferences("settings", Context.MODE_PRIVATE);	//storage location method
-		editor = sp.edit(); 											//storage editor
+		sp = getSharedPreferences("settings", Context.MODE_PRIVATE);
+		editor = sp.edit(); 
 		
-		editText = (EditText) findViewById(R.id.editText1);				//Materialized
-		button = (Button) findViewById(R.id.button1);					//Materialized
-		checkBox =(CheckBox) findViewById(R.id.checkBox1);				//Materialized
+		editText = (EditText) findViewById(R.id.editText1);
+		button = (Button) findViewById(R.id.button1);
+		checkBox =(CheckBox) findViewById(R.id.checkBox1);
 		
 		button.setText("Send");
-		button.setOnClickListener(new OnClickListener(){				//on Click listener method
+		button.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Log.d("debug", "click from button1");					//LogCat debug method
+				Log.d("debug", "click from button1");
 				sendText();
 			}
 			
 		});
 		
-		editText.setOnKeyListener(new OnKeyListener() {					//on Key Listener	
+		editText.setOnKeyListener(new OnKeyListener() {
 			
 			@Override
 			public boolean onKey(View v, int keyCode, KeyEvent event) {
@@ -57,8 +57,8 @@ public class MainActivity extends Activity {
 				Log.d("debug", "keyCode: " + keyCode);
 				
 				String text = editText.getText().toString();
-				editor.putString("text", text);							//sharedPreferences Put string
-				editor.commit();										//commit 
+				editor.putString("text", text);
+				editor.commit();
 				
 				if(keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN){
 					sendText();
@@ -69,7 +69,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-		editText.setText(sp.getString("text", ""));						//get sharedPreferences data to set editText
+		editText.setText(sp.getString("text", ""));
 	}
 	
 	public void ClickButton2(View view) {
@@ -86,7 +86,7 @@ public class MainActivity extends Activity {
 		}
 		
 		
-		Toast.makeText(this, text, Toast.LENGTH_LONG).show();//show text box and set time
+		Toast.makeText(this, text, Toast.LENGTH_LONG).show();//shwo the text to a box and time
 		editText.setText("");
 	}
 
