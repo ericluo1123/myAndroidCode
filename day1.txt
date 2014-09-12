@@ -1,0 +1,17 @@
+2014/0901
+
+https://docs.google.com/a/ggm.tw/document/d/1kpdRptJEJPwTBzsIorHHLKIGFyZr7rSCwp2QhwzHc24/edit?pli=1
+
+ericluo1123
+
+下載以下三個套件：
+https://developer.android.com/sdk/index.html
+
+下載github桌面應用程式：
+https://windows.github.com/
+
+註冊github帳號：
+https://github.com/
+
+下載 genymotion ，註冊 genymotion 帳號：
+http://www.genymotion.com/

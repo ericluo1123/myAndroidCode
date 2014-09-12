@@ -1,6 +1,6 @@
 com.android.ide.eclipse.ddms.explorer.data=81
 com.android.ide.eclipse.ddms.explorer.info=80
-com.android.ide.eclipse.ddms.explorer.name=108
+com.android.ide.eclipse.ddms.explorer.name=524
 com.android.ide.eclipse.ddms.explorer.permissions=80
 com.android.ide.eclipse.ddms.explorer.size=57
 com.android.ide.eclipse.ddms.explorer.time=46
@@ -27,6 +27,7 @@ logcat.view.colsize.TID=54
 logcat.view.colsize.Tag=115
 logcat.view.colsize.Text=580
 logcat.view.colsize.Time=144
+logcat.view.filters.list=name\: 'debug', tag\: 'debug', text\: '', pid\: '', app\: '', level\: 'debug', 
 threadPanel.Col0=35
 threadPanel.Col1=49
 threadPanel.Col2=75

@@ -1,0 +1,52 @@
+2014/0905
+
+LinearLayout
+
+http://developer.android.com/guide/topics/ui/layout/linear.html
+
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140904/SimpleLinearLayout/res/layout/activity_main.xml
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140904/SimpleLinearLayout/src/com/example/simplelinearlayout/MainActivity.java
+
+
+add simplelinearlayout project
+https://github.com/godgunman/android_class2/commit/4c3f026fb1793046ab8d707ff07a7576f3ac005e
+
+update layout
+https://github.com/godgunman/android_class2/commit/a268540bef97f160f065937273b47d725559562e
+
+create view programmatically
+https://github.com/godgunman/android_class2/commit/f03aaee982d66c10f5e9bad48da7bed6f3e6662d
+
+set properties
+https://github.com/godgunman/android_class2/commit/01fdac3148705b35295ee24770d36ff026ff6267
+
+
+RelativeLayout
+
+http://developer.android.com/guide/topics/ui/layout/relative.html
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140904/SimpleRelativeLayout/res/layout/activity_main.xml
+
+
+add SimpleRelativeLayout proje
+https://github.com/godgunman/android_class2/commit/9cd96ca929c673f31cb7df37eb87d5d726a4a4c6
+
+
+Simple UI
+
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140904/SimpleUI/src/com/example/simpleui/MainActivity.java
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140904/SimpleUI/res/layout/activity_main.xml
+
+
+
+add SimpleUI project
+https://github.com/godgunman/android_class2/commit/ef9783e2ea910796e4a1f6ed7bbd4bf41e7ab50f

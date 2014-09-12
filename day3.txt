@@ -1,0 +1,33 @@
+2014/0912
+
+http://goo.gl/MVx9aV
+
+https://docs.google.com/a/ggm.tw/document/d/1KmZiL2dYpbUMZgHzWooRr3cma-Minl_pD-BBYdx7sTA/edit?pli=1#
+
+Simple UI
+
+Import https://github.com/godgunman/android_class2/tree/master/20140904
+
+
+Sources:
+
+MainActitviy.java
+https://github.com/godgunman/android_class2/blob/master/20140911/SimpleUI/src/com/example/simpleui/MainActivity.java
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140911/SimpleUI/res/layout/activity_main.xml
+
+¸ô®|¦b /data/data/com.example.simpleUI/shread_prefs/
+
+Commits:
+
+add click method. toast text.
+https://github.com/godgunman/android_class2/commit/dee893123015f63ead33a6d9342c9d6039c7d91b
+
+add checkbox, add OnKeyListener
+https://github.com/godgunman/android_class2/commit/2e5766efe335a42740a6369581bcdec233a3d853
+
+use view id. add SharedPreferences
+https://github.com/godgunman/android_class2/commit/60e047af52cb4d913715f88f2de36e29611be9a0
+
+
