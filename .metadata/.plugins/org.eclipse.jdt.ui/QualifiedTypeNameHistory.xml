@@ -2,10 +2,27 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
 <fullyQualifiedTypeName name="android.widget.CheckBox"/>
 <fullyQualifiedTypeName name="android.view.View.OnKeyListener"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences.Editor"/>
-<fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences"/>
+<fullyQualifiedTypeName name="android.widget.CompoundButton.OnCheckedChangeListener"/>
+<fullyQualifiedTypeName name="android.view.View.OnCreateContextMenuListener"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="com.example.mytest.R.layout"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.example.mytest.R.id"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="org.apache.http.impl.conn.Wire"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="com.example.mytest.R"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.example.newsimpleui.messageActivity"/>
+<fullyQualifiedTypeName name="android.widget.ListView"/>
+<fullyQualifiedTypeName name="com.example.newsimpleui.R.id"/>
+<fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
 </qualifiedTypeNameHistroy>

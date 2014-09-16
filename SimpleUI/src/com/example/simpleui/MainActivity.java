@@ -2,6 +2,7 @@ package com.example.simpleui;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
@@ -14,6 +15,8 @@ import android.view.View.OnClickListener;
 import android.view.View.OnKeyListener;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -33,10 +36,20 @@ public class MainActivity extends Activity {
 		sp = getSharedPreferences("settings", Context.MODE_PRIVATE);	//storage location method
 		editor = sp.edit(); 											//storage editor
 		
-		editText = (EditText) findViewById(R.id.editText1);				//Materialized
-		button = (Button) findViewById(R.id.button1);					//Materialized
+
 		checkBox =(CheckBox) findViewById(R.id.checkBox1);				//Materialized
+		checkBox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+			
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+				// TODO Auto-generated method stub
+				editor.putBoolean("checked", isChecked);
+				editor.commit();
+			}
+		});
 		
+	
+		button = (Button) findViewById(R.id.button1);					//Materialized
 		button.setText("Send");
 		button.setOnClickListener(new OnClickListener(){				//on Click listener method
 
@@ -49,6 +62,8 @@ public class MainActivity extends Activity {
 			
 		});
 		
+		
+		editText = (EditText) findViewById(R.id.editText1);				//Materialized
 		editText.setOnKeyListener(new OnKeyListener() {					//on Key Listener	
 			
 			@Override
@@ -64,12 +79,12 @@ public class MainActivity extends Activity {
 					sendText();
 				}
 				
-
 				return false;
 			}
 		});
 		
 		editText.setText(sp.getString("text", ""));						//get sharedPreferences data to set editText
+		checkBox.setChecked(sp.getBoolean("checked", false));
 	}
 	
 	public void ClickButton2(View view) {
@@ -88,6 +103,13 @@ public class MainActivity extends Activity {
 		
 		Toast.makeText(this, text, Toast.LENGTH_LONG).show();//show text box and set time
 		editText.setText("");
+		
+		
+		Intent intent =new Intent();
+		intent.setClass(this, messageActivity.class);
+		intent.putExtra("text", text);
+		startActivity(intent);
+		
 	}
 
 	@Override

@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=myTest/src&lt;com.example.mytest{messageActivity.java[messageActivity" modifiers="1" timestamp="1410874498834"/>
+<typeInfo handle="=newSimpleUI/src&lt;com.example.newsimpleui{messageActivity.java[messageActivity" modifiers="1" timestamp="1410876622378"/>
+<typeInfo handle="=SimpleUI/src&lt;com.example.simpleui{MainActivity.java[MainActivity" modifiers="1" timestamp="1410876905221"/>
+<typeInfo handle="=SimpleUI/src&lt;com.example.simpleui{messageActivity.java[messageActivity" modifiers="1" timestamp="1410876898107"/>
+</typeInfoHistroy>
