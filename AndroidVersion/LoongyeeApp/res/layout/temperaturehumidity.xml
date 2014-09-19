@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background" android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title" >
+        
+        <Button 
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"         
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/back_btn_bk"
+            android:text="@string/back"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/temperature_humidity_title"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        
+        <Button 
+            android:id="@+id/editBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/edit_btn_bk"
+            android:text="@string/edit"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/temperature_humidity_mid"
+        android:layout_marginTop="5dp"
+            >
+        
+        <TextView 
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Living_room"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        
+        <ImageView
+            android:id="@+id/temperatureicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/temperature_icon"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+        
+        <TextView 
+           	android:id="@+id/temperaturelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/temperatureicon"
+          	android:layout_alignTop="@id/temperatureicon"
+          	android:layout_marginTop="20dp"
+            android:text="@string/temperature_label"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        
+         <TextView 
+           	android:id="@+id/temperaturevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/temperaturelabel"
+          	android:layout_alignTop="@id/temperaturelabel"
+          	android:text="32℃ / 98.9 F"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        
+        <ImageView
+            android:id="@+id/humidityicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/humidity_icon"
+            android:layout_alignLeft="@id/temperatureicon"
+            android:layout_below="@id/temperatureicon"
+            android:layout_marginTop="20dp"/>
+        
+        <TextView 
+           	android:id="@+id/humiditylabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/humidityicon"
+          	android:layout_alignRight="@id/temperaturelabel"
+          	android:layout_marginTop="20dp"
+            android:text="@string/humidity_label"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        
+         <TextView 
+           	android:id="@+id/humidityvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/humiditylabel"
+          	android:layout_alignTop="@id/humiditylabel"
+          	android:text="99%"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:layout_width="match_parent"
+        	android:layout_height="2dp"
+        	android:layout_marginTop="20dp"
+        	android:background="#0a64a9"/>
+        
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            	<ImageButton
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content" 
+            	    android:layout_marginTop="5dp"
+            	    android:src="@drawable/th_livingroom"/>
+            	
+            	<ImageButton
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content" 
+            	    android:layout_marginTop="5dp"
+            	    android:src="@drawable/th_kitchen"/>
+            	
+            	<ImageButton
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content" 
+            	    android:layout_marginTop="5dp"
+            	    android:src="@drawable/th_restaurant"/>
+            	   
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

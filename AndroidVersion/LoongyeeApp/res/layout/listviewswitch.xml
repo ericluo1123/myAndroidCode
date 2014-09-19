@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_gravity="center"
+              android:layout_height="match_parent" android:background="@drawable/bk">
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/keyswitch" android:layout_alignParentLeft="true" android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/keyswitch"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ff8218"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/keypair"
+                android:id="@+id/keypair" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+                android:background="@drawable/switchskey"/>
+    </RelativeLayout>
+</RelativeLayout>

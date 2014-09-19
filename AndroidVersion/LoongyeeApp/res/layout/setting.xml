@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" android:background="@drawable/bkblue">
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/switchsettitle"
+                android:id="@+id/top"
+                >
+            <Button android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:text="@string/back"
+                    android:textSize="14sp"
+                    android:background="@drawable/back"
+                    android:textColor="#ffffff" android:textStyle="bold"
+                    android:paddingBottom="3dp"
+                    android:layout_alignParentLeft="true" android:layout_marginLeft="8dp"
+                    android:layout_centerVertical="true" android:layout_alignBottom="@+id/setting"
+                    android:layout_alignParentTop="true" android:layout_marginTop="31dp" android:onClick="onClick"/>
+            <TextView android:id="@+id/setting"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:textSize="20sp"
+                      android:layout_centerVertical="true"
+                      android:textColor="#FFFFFF" android:password="false" android:focusableInTouchMode="true"
+                      android:text="@string/setting"/>
+        </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/name"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top" android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#23baff"
+                android:text="@string/name"
+                android:textSize="20dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nametxt"
+                android:background="@drawable/setting01"
+                android:layout_alignLeft="@+id/name"
+                android:layout_below="@+id/name"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/password"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="10dp" android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/changepassword"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#23baff"
+                android:text="@string/changepassword"
+                android:textSize="20dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/connpassword"
+                android:background="@drawable/setting01"
+                android:layout_alignLeft="@+id/changepassword"
+                android:layout_below="@+id/changepassword"
+                android:text="@string/connpassword"
+                android:clickable="true"
+                android:enabled="true"
+                android:editable="false"
+                android:gravity="center_vertical|center_horizontal"
+                android:onClick="onClick"
+                android:textSize="20dp"/>
+        <Button android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/adminpassword"
+                  android:background="@drawable/setting01"
+                  android:layout_alignLeft="@+id/changepassword"
+                  android:layout_below="@+id/connpassword"
+                  android:text="@string/adminpassword"
+                  android:layout_marginTop="2dp"
+                  android:clickable="true"
+                  android:onClick="onClick"
+                  android:enabled="true"
+                  android:editable="false"
+                  android:gravity="center_vertical|center_horizontal" android:textSize="20dp"/>/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/channl"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="10dp" android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/channel"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="#23baff"
+                android:text="@string/channel"
+                android:textSize="20dip"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"/>
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/channels"
+                android:background="@drawable/setting01"
+                android:layout_alignLeft="@+id/channel"
+                android:layout_below="@+id/channel"
+                android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

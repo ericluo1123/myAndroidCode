@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loongyee</string>
+    <string name="Loongyee">Loong Yee</string>
+    <string name="maintmp">Temperture</string>
+    <string name="mainhum">Humidity</string>
+    <string name="back">Back</string>
+    <string name="edit">Edit</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="save">Save</string>
+    <string name="switchs">Switch</string>
+    <string name="plugs">Plug</string>
+    <string name="keypair">Pair</string>
+    <string name="Switch1">Switch1</string>
+    <string name="TurnOffAll">All Off</string>
+    <string name="Key8">8KEY</string>
+    <string name="settime_Info">Please set timer for switch</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="loginmessage">Please enter password for setting</string>
+    <string name="loginmessage2">Please enter password for Test</string>
+    <string name="login">Login</string>
+    <string name="userlogin">User Login</string>
+    <string name="setting">Setting</string>
+    <string name="name">Link Name</string>
+    <string name="changepassword">Modify Password</string>
+    <string name="connpassword">Modify Connection Password</string>
+    <string name="adminpassword">Modify User Password</string>
+    <string name="channel">Wireless Channel</string>
+    <string name="newpassword">Enrter Password</string>
+    <string name="checkpassword">EnterPassword Again</string>
+    <string name="newusepassword">Enter New User Password</string>
+    <string name="checkusepassword">Check your New Password</string>
+    <string name="temperature_humidity_title">Temperature and Humidity</string>
+    <string name="temperature_label">Temperature: </string>
+    <string name="humidity_label">Humidity: </string>
+    <string name="Living_room">Living Room</string>
+    <string name="kitchen">Kitchen</string>
+    <string name="restaurant">Dining room</string>
+    <string name="switchtxt1">Living room</string>
+    <string name="switchtxt2">Restaurant</string>
+    <string name="switchtxt3">kitchen</string>
+    <string name="switchtxt4">restroom</string>
+    <string name="switchtxt5">front porch</string>
+    <string name="switchtxt6">garage</string>
+    <string name="switchtxt7">hallway</string>
+    <string name="switchtxt8">restroom</string>
+    <string name="switchtxt9">basement</string>
+    <string name="photo_pic">Select Photo from Camera</string>
+    <string name="gallery">Select Photo from Album</string>
+    <string name="local_pic">Select Photo from Local</string>
+    <string name="select_pic">"Select Photo"</string>
+    <string name="title_activity_monitor">MonitorActivity</string>
+    <string name="monitor_title">Monitor</string>
+    <string name="funtion_not_open">this feature is not yet available, comming soon！</string>
+    <string name="msg">communication error</string>
+    <string name="msg1">Error code, please contact the manufacturer</string>
+    <string name="msg2">internet connection failed</string>
+    <string name="msg3">Device in Learning Mode Now</string>
+    <string name="msg4">Press back again to quit </string>
+    <string name="msg5">Device is running</string>
+    <string name="study">Pairing</string>
+    <string name="search">Searching</string>
+    <string name="stop_search">Stop Searching</string>
+    <string name="cleardata">Whether clearing data ?</string>
+    <string name="wait">Please Waiting...</string>
+    <string name="studying">Learning...</string>
+    <string name="longdist">Long distance</string>
+    <string name="light_name">Remote controlled lights</string>
+    <string name="server_name">System Control</string>
+    <string name="version">Version Information: 1.1</string>
+    <string name="msgturn">communication error</string>
+    <string name="appliance">appliance</string>
+    <string-array name="channels">
+        <item>Channel 1</item>
+        <item>Channel 2</item>
+        <item>Channel 3</item>
+        <item>Channel 4</item>
+        <item>Channel 5</item>
+        <item>Channel 6</item>
+    </string-array>
+</resources>

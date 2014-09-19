@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:pj="http://schemas.android.com/apk/res/com.teamsourcing.LoongyeeApp.main"
+              xmlns:bm="com.teamsourcing.LoongyeeApp.main"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:background="@drawable/bk">
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:focusableInTouchMode="false">
+            <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/longyi_01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:cropToPadding="false"
+            android:baselineAlignBottom="false"
+            android:clickable="false" android:id="@+id/title"/>
+        <ImageView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainlogo"
+                android:background="@drawable/mainlogo"
+                android:layout_toLeftOf="@+id/textView" android:layout_alignTop="@+id/title"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Loongyee"
+                android:id="@+id/textView"
+                android:textSize="20sp" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
+                android:textColor="#FFFFFF"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp" android:layout_gravity="left|center_vertical">
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView"
+                android:layout_alignTop="@+id/humidity"
+                android:background="@drawable/temperture" android:layout_alignParentBottom="false"/>
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/humidity"
+                android:background="@drawable/humidity"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/temperature"/>
+        <LinearLayout
+                android:id="@+id/linearlayout1"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_alignRight="@+id/imageView">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/maintmp"
+                android:textColor="#FFFFFF"
+                android:text="@string/maintmp"
+                android:phoneNumber="false"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_alignTop="@+id/imageView" android:layout_gravity="center" android:textSize="18sp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:text="25°C/77°F"
+                    android:phoneNumber="false"
+                    android:layout_toRightOf="@+id/imageView"
+                    android:layout_alignTop="@+id/imageView" android:layout_gravity="center" android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/linearlayout2"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignLeft="@+id/humidity"
+                android:layout_alignTop="@+id/imageView"
+                >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:id="@+id/mainhum"
+                      android:textColor="#FFFFFF"
+                      android:text="@string/mainhum"
+                      android:phoneNumber="false"
+                      android:layout_toRightOf="@+id/imageView"
+                      android:layout_alignBottom="@+id/imageView"
+                      android:layout_gravity="center" android:textSize="18sp"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:textColor="#FFFFFF"
+                      android:text="78%"
+                      android:phoneNumber="false"
+                      android:layout_toRightOf="@+id/imageView"
+                      android:layout_alignBottom="@+id/imageView"
+                      android:layout_gravity="center" android:textSize="18sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_weight="1"
+            android:padding="5dip"
+            android:gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:weightSum="1">
+        <com.teamsourcing.LoongyeeApp.controls.Carousel
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/carousel"
+                pj:UseReflection="true"
+                pj:Items="@array/entries"
+                pj:SelectedItem="0"
+                android:animationDuration="200"
+                android:layout_gravity="center_horizontal|top"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        <TextView android:layout_width="fill_parent"
+                  android:id="@+id/textview_name"
+                  android:text=""
+                  android:textColor="#FF444444"
+                  android:textSize="30sp"
+                  android:layout_height="80dp"
+                  android:layout_gravity="top"
+                  android:layout_marginBottom="10dp"
+                  android:gravity="center"
+                />
+    </LinearLayout>
+
+</LinearLayout>

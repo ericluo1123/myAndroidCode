@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loongyee</string>
+    <string name="Loongyee">Loong Yee</string>
+    <string name="maintmp">Temperture</string>
+    <string name="mainhum">Humidity</string>
+    <string name="back">返回</string>
+    <string name="ok">確認</string>
+    <string name="cancel">取消</string>
+    <string name="edit">編輯</string>
+    <string name="edit_name">編輯名稱</string>
+    <string name="save">保存</string>
+    <string name="switchs">開關</string>
+    <string name="plugs">插座</string>
+    <string name="keypair">配對</string>
+    <string name="Switch1">Switch1</string>
+    <string name="TurnOffAll">全部關閉</string>
+    <string name="Key8">8KEY</string>
+    <string name="settime_Info">請設定幾分鐘後關閉電燈</string>
+    <string name="alert_ok">確認</string>
+    <string name="alert_cancel">取消</string>
+    <string name="loginmessage">感謝您的使用,請輸入管理者密碼</string>
+    <string name="loginmessage2">輸入密碼後登入，將有測試權限</string>
+    <string name="login">登入</string>
+    <string name="userlogin">一般使用者登入</string>
+    <string name="setting">設定</string>
+    <string name="name">連接名稱</string>
+    <string name="changepassword">更改密碼</string>
+    <string name="connpassword">更改連線密碼</string>
+    <string name="adminpassword">更改使用者密碼</string>
+    <string name="channel">無線網路頻道</string>
+    <string name="newpassword">請輸入新連線密碼</string>
+    <string name="checkpassword">請重新輸入新連線密碼</string>
+    <string name="newusepassword">請輸入新使用者密碼</string>
+    <string name="checkusepassword">請重新輸入新使用者密碼</string>
+    <string name="temperature_humidity_title">溫濕度</string>
+    <string name="temperature_label">溫度：</string>
+    <string name="humidity_label">濕度：</string>
+    <string name="Living_room">客廳</string>
+    <string name="kitchen">廚房</string>
+    <string name="restaurant">餐廳</string>
+    <string name="switchtxt1">Living room</string>
+    <string name="switchtxt2">Restaurant</string>
+    <string name="switchtxt3">kitchen</string>
+    <string name="switchtxt4">restroom</string>
+    <string name="switchtxt5">front porch</string>
+    <string name="switchtxt6">garage</string>
+    <string name="switchtxt7">hallway</string>
+    <string name="switchtxt8">restroom</string>
+    <string name="switchtxt9">basement</string>
+    <string name="photo_pic">相機獲取圖片</string>
+    <string name="gallery">圖庫獲取圖片</string>
+    <string name="local_pic">本地獲取圖片</string>
+    <string name="select_pic">"選擇圖片"</string>
+    <string name="title_activity_monitor">MonitorActivity</string>
+    <string name="monitor_title">監視器</string>
+    <string name="funtion_not_open">此功能沒有開放，敬請期待！</string>
+    <string name="msg">communication error</string>
+    <string name="msg1">出現錯誤碼請聯絡廠商</string>
+    <string name="msg2">網路連線異常</string>
+    <string name="msg3">此裝置學習中</string>
+    <string name="msg4">請再點擊退出</string>
+    <string name="msg5">設備操作中</string>
+    <string name="study">配對</string>
+    <string name="search">搜索中</string>
+    <string name="stop_search">停止搜索</string>
+    <string name="studying">學習中...</string>
+    <string name="cleardata">是否清除資料?</string>
+    <string name="longdist">距離過長</string>
+    <string name="wait">請等待...</string>
+    <string name="light_name">遠端燈控</string>
+    <string name="appliance">家電</string>
+    <string name="server_name">系統控制</string>
+    <string name="version">版本資訊: 1.1</string>
+    <string name="msgturn">communication error</string>
+    <string-array name="channels">
+        <item>Channel 1</item>
+        <item>Channel 2</item>
+        <item>Channel 3</item>
+        <item>Channel 4</item>
+        <item>Channel 5</item>
+        <item>Channel 6</item>
+    </string-array>
+</resources>

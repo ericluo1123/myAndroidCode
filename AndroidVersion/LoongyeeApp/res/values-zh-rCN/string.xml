@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loongyee</string>
+    <string name="Loongyee">Loong Yee</string>
+    <string name="maintmp">Temperture</string>
+    <string name="mainhum">Humidity</string>
+    <string name="back">返回</string>
+    <string name="edit">编辑</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="edit_name">编辑名称</string>
+    <string name="save">保存</string>
+    <string name="switchs">开关</string>
+    <string name="plugs">插座</string>
+    <string name="keypair">配对</string>
+    <string name="Switch1">Switch1</string>
+    <string name="TurnOffAll">全部关闭</string>
+    <string name="Key8">8KEY</string>
+    <string name="settime_Info">请设定几分钟后关闭电灯</string>
+    <string name="alert_ok">确认</string>
+    <string name="alert_cancel">取消</string>
+    <string name="loginmessage">感谢您的使用,请输入管理者密码</string>
+    <string name="loginmessage2">输入密码后登入，将有测试权限</string>
+    <string name="login">登入</string>
+    <string name="userlogin">一般使用者登入</string>
+    <string name="setting">设定</string>
+    <string name="name">连接名称</string>
+    <string name="changepassword">更改密码</string>
+    <string name="connpassword">更改联机密码</string>
+    <string name="adminpassword">更改用户密码</string>
+    <string name="channel">无线网络频道</string>
+    <string name="newpassword">请输入新联机密码</string>
+    <string name="checkpassword">请重新输入新联机密码</string>
+    <string name="newusepassword">请输入新用户密码</string>
+    <string name="checkusepassword">请重新输入新用户密码</string>
+    <string name="temperature_humidity_title">温湿度</string>
+    <string name="temperature_label">温度：</string>
+    <string name="humidity_label">湿度：</string>
+    <string name="Living_room">客厅</string>
+    <string name="kitchen">厨房</string>
+    <string name="restaurant">餐厅</string>
+    <string name="switchtxt1">Living room</string>
+    <string name="switchtxt2">Restaurant</string>
+    <string name="switchtxt3">kitchen</string>
+    <string name="switchtxt4">restroom</string>
+    <string name="switchtxt5">front porch</string>
+    <string name="switchtxt6">garage</string>
+    <string name="switchtxt7">hallway</string>
+    <string name="switchtxt8">restroom</string>
+    <string name="switchtxt9">basement</string>
+    <string name="photo_pic">相机获取图片</string>
+    <string name="gallery">图库获取图片</string>
+    <string name="local_pic">本地获取图片</string>
+    <string name="select_pic">"选择图片"</string>
+    <string name="title_activity_monitor">MonitorActivity</string>
+    <string name="monitor_title">监视器</string>
+    <string name="funtion_not_open">此功能没有开放，敬请期待！</string>
+    <string name="msg">communication error</string>
+    <string name="msg1">出现错误码请联络厂商</string>
+    <string name="msg2">网络联机异常</string>
+    <string name="msg3">此装置学习中</string>
+    <string name="msg4">请再点击退出</string>
+    <string name="msg5">设备操作中</string>
+    <string name="study">配对</string>
+    <string name="studying">学习中...</string>
+    <string name="search">搜索中</string>
+    <string name="stop_search">停止搜索</string>
+    <string name="wait">请等待...</string>
+    <string name="cleardata">是否清除资料?</string>
+    <string name="longdist">距离过长</string>
+    <string name="light_name">远程灯控</string>
+    <string name="server_name">系统控制</string>
+    <string name="appliance">家电</string>
+    <string name="version">版本信息: 1.1</string>
+    <string name="msgturn">communication error</string>
+    <string-array name="channels">
+        <item>Channel 1</item>
+        <item>Channel 2</item>
+        <item>Channel 3</item>
+        <item>Channel 4</item>
+        <item>Channel 5</item>
+        <item>Channel 6</item>
+    </string-array>
+</resources>

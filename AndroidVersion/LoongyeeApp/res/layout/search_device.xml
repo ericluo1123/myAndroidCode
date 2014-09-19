@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF">
+    <RelativeLayout
+            android:id="@+id/top"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/switchsettitle"
+            android:id="@+id/top"
+            >
+        <Button android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:text="@string/back"
+                android:textSize="14sp"
+                android:background="@drawable/back"
+                android:textColor="#ffffff" android:textStyle="bold"
+                android:paddingBottom="3dp"
+                android:layout_alignParentLeft="true" android:layout_marginLeft="8dp"
+                android:layout_centerVertical="true" android:layout_alignBottom="@+id/switchs"
+                android:layout_alignParentTop="true" android:layout_marginTop="31dp" android:onClick="onClick"/>
+        <TextView android:id="@+id/switchs"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:textSize="20sp"
+                  android:layout_centerVertical="true"
+                  android:textColor="#FFFFFF" android:password="false" android:text="@string/setting"/>
+    </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/textview_search"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_centerInParent="true"
+                android:textColor="#000000" android:password="false" android:text="@string/search"
+                />
+        <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/textview_period"
+                android:layout_centerInParent="true"
+                android:textColor="#000000" android:password="false" android:text="....."
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textview_search"/>
+
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/stop"
+                    android:textSize="30dp"
+                    android:text="@string/stop_search"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/button_refresh" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="#ffff0000"-->
+                <!--android:textSize="30dp"-->
+                <!--android:text="停止搜索"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:id="@+id/button_refresh" />-->
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

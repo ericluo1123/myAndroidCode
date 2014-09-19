@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable/switchsettitle.png
+SHA1-Digest: H4nlBJolzKQJ/h+AE3W54amiST8=
+
+Name: res/drawable/switchskey.png
+SHA1-Digest: oJG9QN7ZCFmoSDBdvl1le+p8Js8=
+
+Name: res/drawable/loongyeecam.png
+SHA1-Digest: g4jO3AbluxESc7/CaFhcN9C8O3k=
+
+Name: res/drawable/back.png
+SHA1-Digest: iKZzvPDtQtAz9+QtTMWOi0+avmg=
+
+Name: res/layout/switchset.xml
+SHA1-Digest: F7yKGYWYCS9+5Imv7p0rZhbc6ZU=
+
+Name: res/drawable/loongyeeset.png
+SHA1-Digest: 9Us33v86DVU32OjXKDbmbUCbb/0=
+
+Name: res/drawable/loongyeetmp.png
+SHA1-Digest: sMlyLGWa5xo10Oky8IjYzFwfKoI=
+
+Name: resources.arsc
+SHA1-Digest: d7l+qkMZzOzr7BuVni+PAJCVkL0=
+
+Name: classes.dex
+SHA1-Digest: xsvsB4wah1hiUtxCpVAbi4dFjQ4=
+
+Name: res/drawable/title.png
+SHA1-Digest: gCMB07M8OK9RxY01uP7UTJFFpHQ=
+
+Name: res/drawable/temperture.png
+SHA1-Digest: anxm/8lM+h8SJ2W2inqfjQLyFjw=
+
+Name: res/layout/main.xml
+SHA1-Digest: TKvnoX+ruDb7eyTfAH/k9xgI+6Y=
+
+Name: res/layout/loading.xml
+SHA1-Digest: ftjimZyT00UcD5I2jsspK+vmCi4=
+
+Name: res/drawable/loongyeeview.png
+SHA1-Digest: galH5BFsvnFfHdU+8zHaTSiuDvM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: cIp9770yizhXKiy52N6IF/vlwrI=
+
+Name: res/drawable/switchsetbg.png
+SHA1-Digest: 8hfRjHuAHNtcLTUnNct4kkQ7IYo=
+
+Name: res/drawable/icon.png
+SHA1-Digest: wO0iTVu6BOrER5wwgUXk5MUX2oU=
+
+Name: res/drawable/humidity.png
+SHA1-Digest: N3x5KoQQ1Cf237gntbvXvVh951g=
+
+Name: res/layout/listviewswitch.xml
+SHA1-Digest: xfh+8zAa8qesPn2cAgu/O1rRrmM=
+
+Name: res/drawable/welcome.jpg
+SHA1-Digest: GOR9jP/+vVur0FVAfG4hpDo8leU=
+
+Name: res/drawable/bk.png
+SHA1-Digest: VXfv39fuwm4kXA2EXxrJU7u8GAg=
+
+Name: res/drawable/mainlogo.png
+SHA1-Digest: /ZV0h7dZNrogrOWmhPBuuvw2KaU=
+
+Name: res/drawable/loongyeelight.png
+SHA1-Digest: YXdE3mYs21rQCKmncVxj+MXAYs4=
+
+Name: res/drawable/loongyeesetting.png
+SHA1-Digest: cHZ8hGhp0WWJ0Bed8OYMvpc46UQ=
+
+Name: res/drawable/edit.png
+SHA1-Digest: DcBw3guZoJzzWSy5fHYLDCeOwpA=
+

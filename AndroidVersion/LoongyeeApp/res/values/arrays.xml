@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <array name="entries">
+        <item>@drawable/loongyeetmp</item>
+        <item>@drawable/loongyeecam</item>
+        <item>@drawable/loongyeelight</item>
+        <item>@drawable/loongyeeview</item>
+        <item>@drawable/loongyeesetting</item>
+        <item>@drawable/loongyeeset</item>
+    </array>
+</resources>
