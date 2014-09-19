@@ -1,0 +1,49 @@
+Http://goo.gl/0iKKvN
+
+https://docs.google.com/document/d/1vVr8AaGwOfq-45Rsfq8ZV_l9Tw1kvAh4zFM40HKmkvw/edit?pli=1
+
+
+SimpleUI (sharedpreference and file)
+
+Import 
+https://github.com/godgunman/android_class2/tree/master/20140911/SimpleUI
+
+
+Sources:
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140915/SimpleUI/src/com/example/simpleui/MainActivity.java
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140915/SimpleUI/res/layout/activity_main.xml
+
+MessageActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140915/SimpleUI/src/com/example/simpleui/MessageActivity.java
+
+activity_message.xml
+https://github.com/godgunman/android_class2/blob/master/20140915/SimpleUI/res/layout/activity_message.xml
+
+AndroidManifest.xml
+https://github.com/godgunman/android_class2/blob/master/20140915/SimpleUI/AndroidManifest.xml
+
+Commits:
+
+add MessageActvitiy
+https://github.com/godgunman/android_class2/commit/9e7a90a4496f5899739d9b85e589f258b0ce20e1
+
+pass value
+https://github.com/godgunman/android_class2/commit/00b5e7d26941d1b49603ad66fc304812a5683ce0
+
+write file
+https://github.com/godgunman/android_class2/commit/70c82a35eeba16679ed35456f0796f61d08c5f71
+
+read file
+https://github.com/godgunman/android_class2/commit/65e9b0bba8fc5d6c5633efe83f062f80d7a2b8c7
+
+use listview
+https://github.com/godgunman/android_class2/commit/64b0a01e070389064cbeba8237b467f7f1625ac5
+
+
+
+android 20140911 notes:
+https://docs.google.com/a/ggm.tw/document/d/1KmZiL2dYpbUMZgHzWooRr3cma-Minl_pD-BBYdx7sTA/edit
