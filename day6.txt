@@ -1,0 +1,83 @@
+http://goo.gl/MFTtLl
+
+https://docs.google.com/a/ggm.tw/document/d/1BtENKAGmtFX_PBzaVGticerNePyiCz6xaAHkUNRB6yY/edit?pli=1
+
+
+SimpleUI (with Parse)
+Import 
+https://github.com/godgunman/android_class2/tree/master/20140918/SimpleUI
+
+
+The complete
+mobile app platform
+
+https://www.parse.com/apps/quickstart#parse_data/mobile/android/native/existing
+
+µù¥U±b¸¹
+https://parse.com/
+
+
+Qickstart Android
+https://parse.com/apps/quickstart#parse_data/mobile/android/native/existing
+
+Queries basic
+https://parse.com/docs/android_guide#queries-basic
+
+
+
+Sources:
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140922/SimpleUI/src/com/example/simpleui/MainActivity.java
+
+
+MessageActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140922/SimpleUI/src/com/example/simpleui/MessageActivity.java
+
+
+
+Commits:
+
+load messages from parse
+https://github.com/godgunman/android_class2/commit/eff508d17fc179f66e30b480dab8a550c5253315
+
+save data to parse
+https://github.com/godgunman/android_class2/commit/b918e6c555fc8e9927f845ef279ee4b9cea7c9e3
+
+change data soure of listview
+https://github.com/godgunman/android_class2/commit/ee55c8f35d0a8829041993877dc61ee106ef1a9e
+
+remove read/write file
+https://github.com/godgunman/android_class2/commit/1ec0631407dd4e075111be5155ab76cad18173aa
+
+
+move load parse to saveCallback, and add progress
+https://github.com/godgunman/android_class2/commit/3fd25972e0031d39991118daffb118a24ce7fce0
+
+
+
+
+
+Take Photo
+
+
+Sources:
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140922/takephoto/src/com/example/takephoto/MainActivity.java
+
+main.xml
+https://github.com/godgunman/android_class2/blob/master/20140922/takephoto/res/menu/main.xml
+
+
+Commits:
+
+add take photo project
+https://github.com/godgunman/android_class2/commit/11189b13966300e7fe543a0207260541cf01baee
+
+use intent to call camera app
+https://github.com/godgunman/android_class2/commit/633ff8d98ddaf0959e9506c9faeb9484ff741a1d
+
+startActivityForResult
+https://github.com/godgunman/android_class2/commit/d2578f19f58f460828ca7cb8b436fa19266f131b
+
