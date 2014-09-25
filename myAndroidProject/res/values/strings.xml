@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">myAndroidProject</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">my first android mobile app</string>
     <string name="action_settings">Settings</string>
+    <string name="Text">多媒體三A</string>
+    <string name="test">123</string>
 
 </resources>

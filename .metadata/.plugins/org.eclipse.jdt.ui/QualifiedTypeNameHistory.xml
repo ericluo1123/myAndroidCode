@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="android.widget.CheckBox"/>
-<fullyQualifiedTypeName name="android.view.View.OnKeyListener"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences.Editor"/>
 <fullyQualifiedTypeName name="android.content.SharedPreferences"/>
 <fullyQualifiedTypeName name="android.widget.CompoundButton.OnCheckedChangeListener"/>
 <fullyQualifiedTypeName name="android.view.View.OnCreateContextMenuListener"/>
 <fullyQualifiedTypeName name="com.example.mytest.R.layout"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="com.example.mytest.R.id"/>
 <fullyQualifiedTypeName name="android.content.Context"/>
 <fullyQualifiedTypeName name="org.apache.http.impl.conn.Wire"/>
@@ -52,4 +49,13 @@
 <fullyQualifiedTypeName name="android.provider.MediaStore"/>
 <fullyQualifiedTypeName name="android.preference.PreferenceManager.OnActivityResultListener"/>
 <fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="com.example.myandroidproject.MainActivity"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.view.View.OnKeyListener"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.example.myandroidproject.R"/>
+<fullyQualifiedTypeName name="com.example.myandroidproject.R.id"/>
 </qualifiedTypeNameHistroy>
