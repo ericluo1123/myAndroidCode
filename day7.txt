@@ -1,0 +1,69 @@
+http://goo.gl/oqElrO
+https://docs.google.com/a/ggm.tw/document/d/1XhFrJ4HxcRVS5G4c6CItyX7XSYKhPab21yVVtf_J6I4/edit?pli=1#heading=h.67wlmhmb30c0
+
+
+
+Take Photo
+
+Import
+https://github.com/godgunman/android_class2/tree/master/20140922/takephoto
+
+
+Links
+
+ParseFile
+https://www.parse.com/docs/android_guide#files
+
+Bitmap
+http://developer.android.com/reference/android/graphics/Bitmap.html
+
+
+Sources:
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140925/takephoto/src/com/example/takephoto/MainActivity.java
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140925/takephoto/res/layout/activity_main.xml
+
+main.xml
+https://github.com/godgunman/android_class2/blob/master/20140925/takephoto/res/menu/main.xml
+
+AndroidManifest.xml
+https://github.com/godgunman/android_class2/blob/master/20140925/takephoto/AndroidManifest.xml
+
+
+Commits:
+
+implement saveToParse
+https://github.com/godgunman/android_class2/commit/e11971494fb5b9dbca87ffe0acb2d67fadd1e575
+
+implement loadFromParse
+https://github.com/godgunman/android_class2/commit/27f3bfe2deef44c06b624671863ac8b58cd242d3
+
+add error check
+https://github.com/godgunman/android_class2/commit/670022ed9f36a9169a435c1a06d39de40e966ab1
+
+open gallery
+https://github.com/godgunman/android_class2/commit/1a1de579ce2b0510e586ab6ecd5361b024e72d33
+
+implement saveToParse(Uri uri)
+https://github.com/godgunman/android_class2/commit/8b085d26e2ff9607f43ed45a2429b3212604203a
+
+MediaStore EXTRA_OUTPUT
+https://github.com/godgunman/android_class2/commit/5decdd802a3c752f7c644796d6ffcc728342bd38
+
+refine project
+https://github.com/godgunman/android_class2/commit/189f325c310113d5722092da46ba9f4eb1b59fe3
+
+
+
+§@·~
+hw 1-1
+https://docs.google.com/a/ggm.tw/document/d/1IB1X8MvHihZWXRyl9KIAjqEE8F2yeMTZSBSGyPDpdcg/edit
+
+hw 1-2
+https://docs.google.com/a/ggm.tw/document/d/13AIX-pAsNufB0mddSGCjkv1Kf2_qeTr7paRWuQDlvyI/edit
+
+hw 2
+https://docs.google.com/a/ggm.tw/document/d/1AGQhmS4TxAJvf3RMZX1fVvl0A00T91GN2bRRHQB0fgw/edit

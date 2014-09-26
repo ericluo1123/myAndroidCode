@@ -12,6 +12,10 @@
         android:orderInCategory="100"
         android:showAsAction="always"
         android:title="takephoto"/>
-
+    <item
+        android:id="@+id/action_gallery"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="gallery"/>
 
 </menu>
