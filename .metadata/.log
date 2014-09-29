@@ -2938,3 +2938,1141 @@ Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
 	... 48 more
+!SESSION 2014-09-29 09:23:24.270 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.8.0_11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_TW
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-29 09:23:53.617
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-09-29 09:23:53.768
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\taianluo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 4 4 2014-09-29 09:23:56.447
+!MESSAGE Failed
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.lint.EclipseLintClient.getTargets(EclipseLintClient.java:916)
+	at com.android.tools.lint.detector.api.Project.readManifest(Project.java:652)
+	at com.android.tools.lint.client.api.LintDriver.runFileDetectors(LintDriver.java:946)
+	at com.android.tools.lint.client.api.LintDriver.checkProject(LintDriver.java:880)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:431)
+	at com.android.tools.lint.client.api.LintDriver.analyze(LintDriver.java:374)
+	at com.android.ide.eclipse.adt.internal.lint.LintJob.run(LintJob.java:163)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 09:25:43.378
+!MESSAGE Failed to load properties file for project 'myHomeWork'
+
+!ENTRY org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14ae871,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e7c77f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@c9b564,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@178be42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e80c85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1dd9eb6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17ce31c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Bracket,
+		Go to Matching Bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9f7919,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@cf1542,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f9b467,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2fa67a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2584d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17dbdfa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1865933,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14eb6e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@50ac2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c0ced1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e6cf3a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@101acee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c40b56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.619
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d0d002,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d9f1a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.619
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a5a831,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bbe604,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-09-29 09:36:10.619
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1064672,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@aa0f76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2014-09-29 09:39:07.074
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-09-29 09:53:24.693
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:231)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:212)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:277)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:496)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:547)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:368)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:314)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:83)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Text.sendKeyEvent(Text.java:1704)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Text.WM_CHAR(Text.java:2584)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2570)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 48 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 09:55:54.343
+!MESSAGE activity_main.xml: Dimension "20" in attribute "layout_height" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:10:52.863
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:11:03.785
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:11:04.022
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:11:29.996
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:11:43.854
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:11:47.639
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:00.323
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:04.084
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:06.459
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:08.063
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:09.820
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:11.213
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:12.796
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:15.189
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:20.504
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:28.374
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:12:32.721
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:13.352
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:14.192
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:14.485
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:14.682
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:15.756
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:18.277
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-09-29 13:54:18.857
+!MESSAGE activity_main.xml: "100sp" in attribute "typeface" is not a valid value
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:28.432
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:28.436
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:28.439
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:28.442
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:31.815
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:31.818
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:31.821
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:31.825
+!MESSAGE activity_main.xml: Dimension "60" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:39.603
+!MESSAGE activity_main.xml: Dimension "70" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:39.606
+!MESSAGE activity_main.xml: Dimension "70" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:39.608
+!MESSAGE activity_main.xml: Dimension "70" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:39.611
+!MESSAGE activity_main.xml: Dimension "70" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:47.434
+!MESSAGE activity_main.xml: Dimension "75" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:47.438
+!MESSAGE activity_main.xml: Dimension "75" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:47.441
+!MESSAGE activity_main.xml: Dimension "75" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:47.444
+!MESSAGE activity_main.xml: Dimension "75" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:54.165
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:54.169
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:54.173
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:56:54.176
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:01.988
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:01.991
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:01.994
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:01.997
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:04.519
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:04.522
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:04.524
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:04.527
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:06.826
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:06.829
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:06.832
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:06.834
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:10.600
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:10.603
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:10.606
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:10.609
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:13.260
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:13.263
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:13.266
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:13.269
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:28.273
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:28.276
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:28.280
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:28.283
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:34.165
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:34.168
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:34.171
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:34.174
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:36.575
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:36.578
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:36.581
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:36.584
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:41.227
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:41.229
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:41.232
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:41.235
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:45.775
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:45.778
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:45.781
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:45.785
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:50.774
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:50.776
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:50.779
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:57:50.782
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:08.618
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:08.621
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:08.624
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:08.629
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:10.157
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:10.160
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:10.162
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:10.166
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:11.844
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:11.847
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:11.849
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:11.852
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:13.185
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:13.188
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:13.191
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:13.194
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:35.013
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:35.016
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:35.019
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:35.022
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:37.250
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:37.253
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:37.257
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:37.260
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:39.166
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:39.169
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:39.171
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:39.174
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:43.582
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:43.585
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:43.589
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:43.591
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:45.618
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:45.621
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:45.625
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:45.628
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:47.541
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:47.543
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:47.546
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:47.549
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:49.180
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:49.184
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:49.186
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:49.189
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:51.091
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:51.094
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:51.097
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:51.099
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:53.157
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:53.160
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:53.162
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:53.165
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:54.797
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:54.800
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:54.805
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:54.808
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:56.116
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:56.119
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:56.122
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 13:59:56.124
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:02.540
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:02.542
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:02.556
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:02.560
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:04.395
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:04.397
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:04.400
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:04.403
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:06.507
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:06.510
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:06.513
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:06.517
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:08.805
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:08.808
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:08.810
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:08.813
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:10.644
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:10.646
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:10.649
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:10.652
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:23.644
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:23.647
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:23.649
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:23.652
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:25.483
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:25.485
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:25.488
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:25.491
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:28.430
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:28.433
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:28.437
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:28.440
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:30.214
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:30.216
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:30.218
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:30.221
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:32.580
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:32.583
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:32.587
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:32.590
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:35.137
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:35.139
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:35.142
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:35.145
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:40.492
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:40.500
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:40.505
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:40.508
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:41.819
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:41.821
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:41.824
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:41.826
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:44.322
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:44.326
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:44.329
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:44.331
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:46.217
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:46.220
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:46.222
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:46.224
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.439
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.442
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.444
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.446
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.709
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.711
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.713
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:00:50.715
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:02:07.889
+!MESSAGE activity_main.xml: Dimension "70" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:02:07.892
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:02:07.895
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:02:07.899
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:15:52.968
+!MESSAGE activity_main.xml: Dimension "72" in attribute "layout_width" is missing unit!
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-09-29 14:32:39.384
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:231)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:212)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:277)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:496)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:547)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:368)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:314)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:83)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Text.sendKeyEvent(Text.java:1704)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Text.WM_CHAR(Text.java:2584)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2570)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 48 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:28.793
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:28.796
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:28.799
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:28.802
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:42.045
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:42.048
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:42.051
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:42.054
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:47.426
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:47.428
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:47.431
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:47.434
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:49.039
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:49.042
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:49.044
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:35:49.047
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:00.195
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:00.197
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:00.202
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:00.204
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:06.143
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:06.145
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:06.148
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-09-29 14:36:06.151
+!MESSAGE activity_main.xml: Dimension "1" in attribute "layout_margin" is missing unit!

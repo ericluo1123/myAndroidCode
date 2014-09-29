@@ -35,7 +35,6 @@
 <fullyQualifiedTypeName name="com.example.simpletakephoto.R.id"/>
 <fullyQualifiedTypeName name="com.parse.ParseQuery"/>
 <fullyQualifiedTypeName name="com.parse.FindCallback"/>
-<fullyQualifiedTypeName name="com.parse.Parse"/>
 <fullyQualifiedTypeName name="com.parse.ParseObject"/>
 <fullyQualifiedTypeName name="com.parse.ParseUser"/>
 <fullyQualifiedTypeName name="com.parse.ParseFile"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="com.example.myandroidproject.R"/>
 <fullyQualifiedTypeName name="com.example.myandroidproject.R.id"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
+<fullyQualifiedTypeName name="com.parse.Parse"/>
 </qualifiedTypeNameHistroy>
