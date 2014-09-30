@@ -1,0 +1,46 @@
+goo.gl/BwpkXf
+https://docs.google.com/a/ggm.tw/document/d/1MS1cKlNcKUAoj2cbiUMczjjtxBIyRzIdBigfJGgfKV8/edit?pli=1#
+
+
+Parse Push
+
+https://parse.com/apps/quickstart#parse_push/android/existing
+
+https://parse.com/docs/push_guide#sending/Android
+
+https://parse.com/docs/push_guide#receiving/Android
+
+
+sources:
+
+MainActivity.java
+https://github.com/godgunman/android_class2/blob/master/20140929/push/src/com/example/push/MainActivity.java
+
+AndroidManifest.xml
+https://github.com/godgunman/android_class2/blob/master/20140929/push/AndroidManifest.xml
+
+MyCustomReceiver.java
+https://github.com/godgunman/android_class2/blob/master/20140929/push/src/com/example/push/MyCustomReceiver.java
+
+activity_main.xml
+https://github.com/godgunman/android_class2/blob/master/20140929/push/res/layout/activity_main.xml
+
+commits:
+
+sending push from client
+https://github.com/godgunman/android_class2/commit/fd573271a781310ead32a9e0fef87473f6fc1e2b
+
+get and save deviceid
+https://github.com/godgunman/android_class2/commit/cddde7d4f5f93b69827f43ac1f6f88344e01375b
+
+refine layout
+https://github.com/godgunman/android_class2/commit/2d92231a3392687fb73ad3637af4c2d1beb99745
+
+send by deviceid
+https://github.com/godgunman/android_class2/commit/a08e36722becdf045ca175fb0d9c0a7940c93ab2
+
+use receiver
+https://github.com/godgunman/android_class2/commit/97ac8eacef8005792057336b4962cb24a2ee3047
+
+JAVA 基礎程式設計班 - 239期
+https://sites.google.com/site/javabasic239/
