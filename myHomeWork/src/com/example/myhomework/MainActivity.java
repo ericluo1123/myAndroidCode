@@ -13,11 +13,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
 	private myCalculator myCalculator;
-	private EditText editText;
+	private TextView textView;
 	private boolean first;
 	private boolean dot;
 
@@ -38,8 +39,8 @@ public class MainActivity extends Activity {
 		myCalculator = new myCalculator();
 		first = false;
 		dot = false;
-		editText = (EditText) findViewById(R.id.editText1);
-		editText.setText("0");
+		textView = (TextView) findViewById(R.id.textView2);
+		textView.setText("0");
 
 	}
 
@@ -54,13 +55,16 @@ public class MainActivity extends Activity {
 
 		} else if (view.getId() == R.id.button5) {
 			// 'c'
-			editText.setText("0");
+			textView.setText("0");
+			myCalculator.clearResult();
 		} else if (view.getId() == R.id.button6) {
 
 		} else if (view.getId() == R.id.button7) {
 			// '/'
+			sendOperator('/');
 		} else if (view.getId() == R.id.button8) {
 			// '*'
+			sendOperator('*');
 		} else if (view.getId() == R.id.button9) {
 			// '7'
 			sendText("7");
@@ -72,6 +76,7 @@ public class MainActivity extends Activity {
 			sendText("9");
 		} else if (view.getId() == R.id.button12) {
 			// '-'
+			sendOperator('-');
 		} else if (view.getId() == R.id.button13) {
 			// '4'
 			sendText("4");
@@ -83,8 +88,10 @@ public class MainActivity extends Activity {
 			sendText("6");
 		} else if (view.getId() == R.id.button16) {
 			// '+'
+			sendOperator('+');
 		} else if (view.getId() == R.id.button17) {
-
+			// '='
+			sendOperator('=');
 		} else if (view.getId() == R.id.button18) {
 			// '1'
 			sendText("1");
@@ -103,22 +110,33 @@ public class MainActivity extends Activity {
 		}
 	}
 
+	private void sendOperator(char operator) {
+		myCalculator
+				.setResult(Double.parseDouble(textView.getText().toString()),operator);
+		if(operator == '='){
+			textView.setText(Double.toString(myCalculator.getResult()));
+		}else{
+			textView.setText("");
+		}
+		
+	}
+
 	private void sendText(String string) {
 		// TODO Auto-generated method stub
-		String text = editText.getText().toString();
+		String text = textView.getText().toString();
 		if (text.equals("0")) {
 			if (string.equals(".")) {
-				editText.setText(text + string);
+				textView.setText(text + string);
 			} else {
-				editText.setText(string);
+				textView.setText(string);
 			}
 		} else {
 			if (string.equals(".")) {
 				if (text.indexOf('.') == -1) {
-					editText.setText(text + string);
+					textView.setText(text + string);
 				}
 			} else {
-				editText.setText(text + string);
+				textView.setText(text + string);
 			}
 
 		}

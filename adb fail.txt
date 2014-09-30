@@ -1,0 +1,40 @@
+close eclipse and Virtual machine
+
+一.adb server didn't ack
+	1.dir to platform-tools	
+	2.enter adb kill-server
+		* server not running * 
+	3.enter adb start-server
+		true:
+			starting it now on port 5037*
+
+		false:
+			adb server is out of date.  killing... 
+			ADB server didn't ACK 
+			* failed to start daemon * 
+
+false
+二.adb server is out of date.  killing... 
+
+	1.enter netstat -ano | findstr "5037" 
+	2.enter tasklist /fi "pid eq 4792"
+	3.enter kill 4792
+
+
+
+三.command
+
+清除螢幕
+cls
+
+切換工作目錄
+cd C:\
+
+cd/d
+cd /d C:
+cd /d D:
+cd /d C:\Document and Settings
+
+
+顯示目錄
+dir

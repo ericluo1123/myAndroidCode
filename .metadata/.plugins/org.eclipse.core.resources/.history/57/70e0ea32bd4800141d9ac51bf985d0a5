@@ -1,0 +1,54 @@
+package com.example.myhomework;
+
+public class myCalculator {
+
+	private char operator;
+	private double result;
+	private double value;
+	private boolean checkValue;
+	private boolean checkOperator;
+
+	myCalculator() {
+		this.result = 0;
+		this.value = 0;
+		this.checkValue = false;
+		this.checkOperator = false;
+		this.operator = 0;
+	}
+
+
+	public double getResult() {
+		return this.result;
+	}
+
+	public void setOperator(char operator) {
+		switch (operator) {
+		case '+':
+			this.result = this.value1 + this.value2;
+			break;
+		case '-':
+			this.result = this.value1 - this.value2;
+			break;
+		case '*':
+			this.result = this.value1 * this.value2;
+			break;
+		case '/':
+			this.result = this.value1 / this.value2;
+			break;
+		case '=':
+			this.result = this.result;
+			break;
+		}
+		this.operator = operator;
+	}
+
+
+
+	public void clearResult() {
+		this.result = 0;
+		this.value = 0;
+		this.checkValue = false;
+		this.checkOperator = false;
+		this.operator = 0;
+	}
+}
