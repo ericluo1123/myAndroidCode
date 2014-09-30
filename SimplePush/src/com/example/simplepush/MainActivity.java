@@ -100,7 +100,7 @@ public class MainActivity extends Activity {
 	public void send(View view) {
 
 		String text = editText.getText().toString();
-		String chennl = "device_" + spinner.getSelectedItem();
+		String channel = "device_" + spinner.getSelectedItem();
 		JSONObject data;
 		data = new JSONObject();
 
@@ -114,7 +114,7 @@ public class MainActivity extends Activity {
 		}
 
 		ParsePush parsePush = new ParsePush();
-		parsePush.setChannel(chennl);
+		parsePush.setChannel(channel);
 		parsePush.setData(data);
 
 		// parsePush.setMessage(text);

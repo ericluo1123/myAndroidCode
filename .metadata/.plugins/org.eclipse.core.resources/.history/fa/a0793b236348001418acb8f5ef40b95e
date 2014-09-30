@@ -1,0 +1,35 @@
+package com.example.myhomework;
+
+public class myCalculator {
+
+	private char operator;
+	private double result;
+
+	myCalculator() {
+		this.result = 0;
+	}
+
+	public double getResult() {
+		return this.result;
+	}
+
+	public void setResult(double result, char operator) {
+		switch (operator) {
+		case '+':
+			this.result += result;
+			break;
+		case '-':
+			this.result -= result;
+			break;
+		case '*':
+			this.result *= result;
+			break;
+		case '/':
+			this.result /= result;
+			break;
+
+		}
+
+	}
+
+}

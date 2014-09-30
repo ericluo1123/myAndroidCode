@@ -1,0 +1,66 @@
+package com.example.myhomework;
+
+public class myCalculator {
+
+	private char operator;
+	private double result;
+	private double value1;
+	private double value2;
+	private boolean checked1;
+	private boolean checked2;
+
+	myCalculator() {
+		this.result = 0;
+		this.value1=0;
+		this.value2=0;
+		this.checked1=false;
+		this.checked2=false;
+	}
+
+	public void setResult(double value) {
+		this.result = value;
+	}
+
+	public double getResult() {
+		return this.result;
+	}
+	
+	public void setValue(double value){
+		if(checked2 == false){
+			if(checked1 == false){
+				checked1=true;
+				this.value1=value;
+			}else{
+				checked2=true;
+				this.value2=value;
+			}
+		}
+	}
+
+	public void runOperator(double result, char operator) {
+		switch (operator) {
+		case '+':
+			this.result += result;
+			break;
+		case '-':
+			this.result -= result;
+			break;
+		case '*':
+			this.result *= result;
+			break;
+		case '/':
+			this.result /= result;
+			break;
+
+		}
+
+	}
+	
+	public void clearResult(){
+		this.result = 0;
+		this.value1=0;
+		this.value2=0;
+		this.checked1=false;
+		this.checked2=false;
+	}
+}
