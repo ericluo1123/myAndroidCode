@@ -1,0 +1,71 @@
+package com.example.myhomework;
+
+public class myCalculator {
+
+	private char operator;
+	private int result;
+	private int value;
+	private boolean saveValue;
+
+	myCalculator() {
+		this.result = 0;
+		this.value = 0;
+		this.saveValue = false;
+		this.operator = 0;
+	}
+
+	public double getResult() {
+		return this.result;
+	}
+
+	public void setResult(int value, char operator) {
+		if (saveValue == false) {
+			this.value = value;
+			if (operator == '=') {
+				this.result = value;
+			} else {
+				this.saveValue = true;
+				this.operator = operator;
+			}
+		} else {
+			this.saveValue = false;
+			this.result = this.value;
+			this.value = value;
+			
+			if (operator == '=') {
+				this.result = getComputing();
+			} else {
+				this.value = value;
+	
+				this.operator = operator;
+			}
+
+		}
+	}
+
+	private int getComputing() {
+		int result=0;
+		switch (this.operator) {
+		case '+':
+			result += this.value;
+			break;
+		case '-':
+			result -= this.value;
+			break;
+		case '*':
+			result *= this.value;
+			break;
+		case '/':
+			result /= this.value;
+			break;
+		}		
+		return result;
+	}
+
+	public void clearResult() {
+		this.result = 0;
+		this.value = 0;
+		this.saveValue = false;
+		this.operator = 0;
+	}
+}

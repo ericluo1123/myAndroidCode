@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
 	private TextView textView;
 	private boolean first;
 	private boolean dot;
+	private boolean clear;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +40,9 @@ public class MainActivity extends Activity {
 		myCalculator = new myCalculator();
 		first = false;
 		dot = false;
+		clear = false;
 		textView = (TextView) findViewById(R.id.textView2);
-		textView.setText("0");
+		textView.setText("");
 
 	}
 
@@ -55,7 +57,7 @@ public class MainActivity extends Activity {
 
 		} else if (view.getId() == R.id.button5) {
 			// 'c'
-			textView.setText("0");
+			textView.setText("");
 			myCalculator.clearResult();
 		} else if (view.getId() == R.id.button6) {
 
@@ -111,14 +113,19 @@ public class MainActivity extends Activity {
 	}
 
 	private void sendOperator(char operator) {
-		myCalculator
-				.setResult(Double.parseDouble(textView.getText().toString()),operator);
-		if(operator == '='){
-			textView.setText(Double.toString(myCalculator.getResult()));
-		}else{
-			textView.setText("");
+
+		if (textView.getText().toString().equals("")) {
+			Log.d("debug", "no input");
+		} else {
+			clear = true;
+			myCalculator.setResult(
+					Integer.parseInt(textView.getText().toString()), operator);
+			if (operator == '=') {
+				textView.setText(Integer.toString(myCalculator.getResult()));
+			} else {
+				textView.setText("");
+			}
 		}
-		
 	}
 
 	private void sendText(String string) {
@@ -131,14 +138,18 @@ public class MainActivity extends Activity {
 				textView.setText(string);
 			}
 		} else {
-			if (string.equals(".")) {
-				if (text.indexOf('.') == -1) {
+			if (clear == false) {
+				if (string.equals(".")) {
+					if (text.indexOf('.') == -1) {
+						textView.setText(text + string);
+					}
+				} else {
 					textView.setText(text + string);
 				}
 			} else {
-				textView.setText(text + string);
+				clear = false;
+				textView.setText(string);
 			}
-
 		}
 	}
 

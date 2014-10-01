@@ -60,8 +60,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="mr"
-                android:textSize="12sp" />
+                android:text="mr" />
 
         </LinearLayout>
 
@@ -248,7 +247,6 @@
                             android:id="@+id/button22"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:onClick="setText"
                             android:text="." />
                     </LinearLayout>
                 </LinearLayout>
