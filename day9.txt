@@ -1,0 +1,36 @@
+goo.gl/z6WVRU
+
+https://docs.google.com/a/ggm.tw/document/d/1lWiWxlGstoAxANIpvUz0ug4qmnzhVMZKdUOzY9MyBpE/edit?pli=1
+
+Facebook Android SDK 
+
+Facebook Android SDK 
+
+https://developers.facebook.com/docs/android/getting-started
+
+安裝 Facebook APK
+方法一
+adb install Facebook.apk
+
+方法二
+開啟瀏覽器點及連結下載 Facebook.apk
+https://copy.com/UPOkHQbHP6tf
+
+
+Facebook Developers
+https://developers.facebook.com/
+
+產生 keyhash
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
+keytool -exportcert -alias androiddebugkey -keystore ~/.android/debug.keystore | openssl sha1 -binary | openssl base64
+
+
+keytool 會需要 java 的環境變數，可以參考這個連結
+http://www.java.com/zh_TW/download/help/path.xml
+
+
+安裝 openssl
+http://slproweb.com/products/Win32OpenSSL.html
+
+
+https://developers.facebook.com/settings/developer/sample-app/
